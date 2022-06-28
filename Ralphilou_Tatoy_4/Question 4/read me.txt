@@ -1,0 +1,10 @@
+Make sure the directory is within the individual question folders.
+Open the makefile via terminal within the individual question folders.
+enter 'make' to compile
+'make run1' = for question 1
+'make run2' = for question 2
+'make run3' = for question 3
+'make run4' = for question 4
+'make run5' = for question 5
+
+'make clean' = delete exe files

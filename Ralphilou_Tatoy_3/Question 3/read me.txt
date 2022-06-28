@@ -1,0 +1,15 @@
+Make sure the directory is within the individual question folders.
+
+Open the makefile via terminal within the individual question folders.
+
+In StackOfInt.cpp, make sure to change the headerfile to the specifed variation and also change the declared class to either array or vector.
+    It will be provided as they are commented out.
+
+enter 'make Array' to compile Array variation
+
+enter 'make Vector' to compile Vector variation
+
+'make run3' = for question 3
+
+
+'make clean' = delete exe files
