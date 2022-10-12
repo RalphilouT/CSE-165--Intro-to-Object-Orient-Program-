@@ -1,0 +1,22 @@
+CC = g++
+CFLAGS  = -g -Wall
+TARGET=CSE_165_QUESTION_1
+TARGET1=CSE_165_QUESTION_2
+TARGET2=CSE_165_QUESTION_3
+TARGET4=CSE_165_QUESTION_4
+TARGET5=CSE_165_QUESTION_5
+
+all:
+#	$(CC) CSE_165_QUESTION_1.cpp -o $(TARGET) 
+#	$(CC) CSE_165_QUESTION_2.cpp -o $(TARGET1)
+#	$(CC) CSE_165_QUESTION_3.cpp printBinary.cpp -o $(TARGET2) 
+	$(CC) UseHandle.cpp Handle.cpp -o UseHandle
+#	$(CC) CSE_165_QUESTION_5.cpp -o $(TARGET5)
+	
+		
+clean:
+	rm -f UseHandle
+
+run4:
+	./UseHandle
+
